@@ -1,7 +1,2 @@
 # Jenkins-Test
-test
-!!!!
-!!!!
-!
-1
-2!
+The purpose of this repository is to test the Jenkins configuration on the nc7-build1 server.
