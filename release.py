@@ -22,3 +22,4 @@ if __name__ == '__main__':
 	create_empty_dir(git_hash)
 	shutil.copy('README.MD', git_hash)
 	print git_hash
+	
