@@ -21,3 +21,5 @@ if __name__ == '__main__':
 	git_hash = subprocess.check_output(["git", "describe", "--abbrev=8", "--always", "--dirty"]).strip().split('\n')[0]
 	create_empty_dir(git_hash)
 	shutil.copy('README.MD', git_hash)
+	print git_hash
+	
